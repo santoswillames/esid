@@ -1,7 +1,7 @@
 export const siteConfig = {
-  name: "Solar Technologies",
-  url: "https://solar.tremor.so",
-  description: "Automation for every Farm.",
+  name: "Esid Energia Solar",
+  url: "https://esid.vercel.app",
+  description: "Energia solar",
   baseLinks: {
     home: "/",
   },

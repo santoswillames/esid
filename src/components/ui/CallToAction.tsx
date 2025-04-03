@@ -11,18 +11,16 @@ export function CallToAction() {
             id="cta-title"
             className="scroll-my-60 text-3xl font-semibold tracking-tighter text-balance text-gray-900 md:text-4xl"
           >
-            Ready to get started?
+            Vamos Transformar Sua Energia?
           </h2>
           <p className="mt-3 mb-8 text-lg text-gray-600">
-            Begin your smart farming journey today or talk to our agronomists
-            about your specific needs.
+            Inicie sua jornada rumo à sustentabilidade hoje mesmo, fale com
+            nossos especialistas para encontrar a melhor solução para o seu
+            projeto.
           </p>
           <div className="flex flex-wrap gap-4">
             <Button asChild className="text-md">
-              <Link href="#">Start now</Link>
-            </Button>
-            <Button asChild className="text-md" variant="secondary">
-              <Link href="#">Find nearest dealer</Link>
+              <Link href="#">Falar com especialista</Link>
             </Button>
           </div>
         </div>

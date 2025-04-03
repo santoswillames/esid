@@ -10,7 +10,7 @@ import { SVGMap } from "./SVGMap"
 export const Map = () => {
   return (
     <section
-      id="farm-management"
+      id="monitoration"
       aria-labelledby="management-title"
       className="relative flex w-full max-w-6xl scroll-my-24 flex-col items-center justify-center overflow-hidden rounded-2xl bg-gray-950 px-10 shadow-2xl shadow-black/50 sm:px-16 md:px-28 lg:mx-auto"
     >
@@ -86,18 +86,18 @@ export const Map = () => {
       </div>
 
       <div className="pt-12 text-base font-semibold tracking-tight text-orange-400 sm:pt-20 sm:text-lg">
-        Farm Management
+        Gerenciamento de painéis
       </div>
       <h2
         id="management-title"
         className="mt-6 max-w-[700px] text-center text-2xl font-semibold tracking-tight text-balance text-white md:text-5xl"
       >
-        Monitoring & Control for Precision Agriculture
+        Monitoramento e Controle em Tempo Real
       </h2>
       <p className="mt-4 max-w-2xl text-center text-base text-balance text-gray-400 sm:mt-8 sm:text-xl">
-        Complete oversight of your farming operations across fields, irrigation
-        systems, and aerial monitoring, delivering insights even in remote rural
-        locations.
+        Acompanhe o desempenho do seu sistema solar a qualquer hora e lugar.
+        Nossa plataforma inteligente oferece dados precisos para manutenção
+        preventiva e máxima eficiência.
       </p>
 
       <div className="relative mt-20 mb-10 ml-[17rem] scale-90 sm:mb-16 md:mt-24 md:ml-0 md:scale-100">

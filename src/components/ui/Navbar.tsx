@@ -22,35 +22,38 @@ export function NavBar() {
           : "bg-white/0",
       )}
     >
-      <div className="w-full md:my-auto">
+      <div className="w-full lg:my-auto">
         <div className="relative flex items-center justify-between">
           <Link href={siteConfig.baseLinks.home} aria-label="Home">
-            <span className="sr-only">Solar Tech Logo</span>
+            <span className="sr-only">Esid Energia Solar Logo</span>
             <SolarLogo className="w-22" />
           </Link>
-          <nav className="hidden sm:block md:absolute md:top-1/2 md:left-1/2 md:-translate-x-1/2 md:-translate-y-1/2 md:transform">
+          <nav className="hidden lg:absolute lg:top-1/2 lg:left-1/2 lg:block lg:-translate-x-1/2 lg:-translate-y-1/2 lg:transform">
             <div className="flex items-center gap-10 font-medium">
               <Link className="px-2 py-1 text-gray-900" href="#solutions">
-                Solutions
+                Soluções
               </Link>
-              <Link className="px-2 py-1 text-gray-900" href="#farm-management">
-                Farm Management
+              <Link className="px-2 py-1 text-gray-900" href="#instalation">
+                Instalação
               </Link>
-              <Link className="px-2 py-1 text-gray-900" href="#solar-analytics">
-                Analytics
+              <Link className="px-2 py-1 text-gray-900" href="#monitoration">
+                Monitoramento
+              </Link>
+              <Link className="px-2 py-1 text-gray-900" href="#contact">
+                Contato
               </Link>
             </div>
           </nav>
           <Button
             variant="secondary"
-            className="hidden h-10 font-semibold sm:block"
+            className="hidden h-10 font-semibold lg:block"
           >
-            Get a quote
+            Solicite orçamento
           </Button>
           <Button
             onClick={() => setOpen(!open)}
             variant="secondary"
-            className="p-1.5 sm:hidden"
+            className="p-1.5 lg:hidden"
             aria-label={open ? "CloseNavigation Menu" : "Open Navigation Menu"}
           >
             {!open ? (
@@ -68,23 +71,26 @@ export function NavBar() {
         </div>
         <nav
           className={cx(
-            "mt-6 flex flex-col gap-6 text-lg ease-in-out will-change-transform sm:hidden",
+            "mt-6 flex flex-col gap-6 text-lg ease-in-out will-change-transform lg:hidden",
             open ? "" : "hidden",
           )}
         >
           <ul className="space-y-4 font-medium">
             <li onClick={() => setOpen(false)}>
-              <Link href="#solutions">Solutions</Link>
+              <Link href="#solutions">Soluções</Link>
             </li>
             <li onClick={() => setOpen(false)}>
-              <Link href="#farm-management">Farm Management</Link>
+              <Link href="#instalation">Instalação</Link>
             </li>
             <li onClick={() => setOpen(false)}>
-              <Link href="#solar-analytics">Analytics</Link>
+              <Link href="#monitoration">Monitoramento</Link>
+            </li>
+            <li onClick={() => setOpen(false)}>
+              <Link href="#contact">Contato</Link>
             </li>
           </ul>
           <Button variant="secondary" className="text-lg">
-            Get a quote
+            Solicite orçamento
           </Button>
         </nav>
       </div>

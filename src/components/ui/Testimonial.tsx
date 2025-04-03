@@ -11,7 +11,7 @@ export default function Testimonial() {
           className="object-cover"
         />
       </div>
-      <div className="absolute top-[19rem] -right-14 w-[19rem] sm:top-[12rem] sm:right-3 sm:w-[23rem] md:top-[12rem] md:right-0 md:w-[25rem] lg:top-[16rem] lg:right-12 lg:w-[34rem]">
+      {/*<div className="absolute top-[19rem] -right-14 w-[19rem] sm:top-[12rem] sm:right-3 sm:w-[23rem] md:top-[12rem] md:right-0 md:w-[25rem] lg:top-[16rem] lg:right-12 lg:w-[34rem]">
         <Image
           alt="clouds background"
           src="/images/drone.png"
@@ -19,18 +19,17 @@ export default function Testimonial() {
           height={554}
           className="animate-hover"
         />
-      </div>
+      </div>*/}
       <div className="relative z-20 mb-20 p-8 sm:p-14 lg:p-24">
         <div className="">
           <blockquote className="relative max-w-2xl text-xl leading-relaxed tracking-tight text-gray-900 md:text-2xl lg:text-3xl">
             <p className="before:absolute before:top-0 before:right-full before:content-['“'] after:text-gray-900/70 after:content-['”']">
               <strong className="font-semibold">
-                Solar transformed our environmental monitoring capabilities.
+                A instalação dos painéis solares transformou nossa rotina.
               </strong>{" "}
               <span className="text-gray-900/70">
-                Their autonomous network provides real-time data on forest
-                health, wildlife patterns, and ecosystem changes with
-                unprecedented precision and efficiency.
+                Com monitoramento em tempo real, conseguimos economizar e
+                contribuir para um mundo mais sustentável.
               </span>
             </p>
           </blockquote>

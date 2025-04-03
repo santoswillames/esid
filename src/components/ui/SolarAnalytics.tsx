@@ -19,11 +19,11 @@ export function SolarAnalytics() {
           id="solar-analytics"
           className="relative scroll-my-24 text-lg font-semibold tracking-tight text-orange-500"
         >
-          Solar Analytics
+          Análises Solares
           <div className="absolute top-1 -left-[8px] h-5 w-[3px] rounded-r-sm bg-orange-500" />
         </h2>
         <p className="mt-2 max-w-lg text-3xl font-semibold tracking-tighter text-balance text-gray-900 md:text-4xl">
-          Turn field data into profitable harvests with real-time insights
+          Relatórios detalhados para otimizar seu retorno sobre o investimento.
         </p>
       </div>
       <div className="*:pointer-events-none">
@@ -33,23 +33,23 @@ export function SolarAnalytics() {
       <div className="grid grid-cols-1 grid-rows-2 gap-6 md:grid-cols-4 md:grid-rows-1">
         <StickerCard
           Icon={RiNavigationFill}
-          title="Autonomous Navigation"
-          description="Smart tractors that navigate fields independently using GPS."
+          title="Relatórios detalhados"
+          description="Informações completas para avaliar o desempenho do seu investimento."
         />
         <StickerCard
           Icon={RiRobot3Fill}
-          title="Robotic Harvesting"
-          description="AI-powered robots that identify and harvest crops at optimal ripeness."
+          title="Alerta de manutenção"
+          description="Receba notificações para manutenções preventivas e evite imprevistos."
         />
         <StickerCard
           Icon={RiDropFill}
-          title="Smart Irrigation"
-          description="Automated irrigation systems that optimize water usage."
+          title="Desempenho do sistema"
+          description="Energia produzida, economia gerada e redução de CO₂/mês"
         />
         <StickerCard
           Icon={RiPieChartFill}
-          title="Yield Analytics"
-          description="Advanced analytics platform that predicts crop yields."
+          title="Otimização do consumo"
+          description="Dados que ajudam a ajustar o uso e maximizar sua economia."
         />
       </div>
     </section>

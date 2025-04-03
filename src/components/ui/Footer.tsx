@@ -148,7 +148,7 @@ const Footer = () => {
           >
             <SolarLogo className="ml-2 w-20" />
 
-            <span className="sr-only">Solar Logo (go home)</span>
+            <span className="sr-only">Esid Energia Solar Logo (go home)</span>
           </Link>
 
           <div>
@@ -188,7 +188,7 @@ const Footer = () => {
               </Link>
             </div>
             <div className="ml-2 hidden text-sm text-gray-700 lg:inline">
-              &copy; {CURRENT_YEAR} Solar Technologies, Inc.
+              &copy; {CURRENT_YEAR} Esid Energia Solar.
             </div>
           </div>
         </div>
